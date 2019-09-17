@@ -1,0 +1,12 @@
+#myform {
+  margin: auto;
+  width: 500px;
+  padding: 30px;
+  background: #ebf4fb;
+  border: 2px solid #b7ddf2;
+  width: 450px;
+}
+span {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}

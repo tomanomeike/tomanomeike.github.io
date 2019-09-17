@@ -1,1 +1,31 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <form id="myform" type="post">
+     <span> Naujas klientas:</span><br />
+      <input
+        required="required"
+        type="text"
+        name="name"
+        placeholder="Numeris"
+        value="Numeris"
+      /><br>
+      <span>Specialistas:</span><br />
+      <select name="list" form="doctorform">
+        <option value="kardiologas">Kardiologas</option>
+        <option value="neurologas">Neurologas</option>
+        <option value="endokrinologas">Endokrinologas</option>
+        <option value="pediatras">Pediatras</option>
+      </select><br>
+      <input id="btn" type="submit" value="Išsaugoti" /><br />
+    </form>
+</html>
